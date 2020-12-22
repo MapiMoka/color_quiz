@@ -5,6 +5,7 @@ const c_01 = document.getElementById("color-01");
 const c_02 = document.getElementById("color-02");
 const c_03 = document.getElementById("color-03");
 const c_04 = document.getElementById("color-04");
+const next_quiz_btn = document.getElementById("footer-container");
 
 function btn_01() {
   let select = document.getElementById("color-01");
@@ -80,4 +81,9 @@ function result(r) {
   } else {
     alert("予期せぬ自体が発生！！");
   }
+  next_quiz_btn.innerHTML =
+    '<p class="footer-container-p" onclick="next_quiz()">次のクイズへ</p>';
+}
+function next_quiz() {
+  location.href = "file:///D:/Qin_Contents/color_quiz.html";
 }
