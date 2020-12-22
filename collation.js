@@ -85,5 +85,5 @@ function result(r) {
     '<p class="footer-container-p" onclick="next_quiz()">次のクイズへ</p>';
 }
 function next_quiz() {
-  location.href = "https://mapimoka.github.io/color_quiz/";
+  location.href = "./index.html";
 }
