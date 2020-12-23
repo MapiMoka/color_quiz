@@ -49,7 +49,7 @@ function collation(ans, sel, r) {
     alert("正解！！");
     result(r);
   } else {
-    alert("ちがうよ...。");
+    alert("ちがうよっ。");
   }
 }
 
